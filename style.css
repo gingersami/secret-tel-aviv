@@ -78,3 +78,73 @@ nav ul {
   background-size: cover;
   height: 959px;
 }
+
+@media (max-width: 700px){
+  .column {
+    width: 100%;
+  }
+}
+
+.column-30 {
+  height: auto;
+  width: 30%;
+  float: left;
+  background-color: white;
+  margin:0 2.5%;
+}
+
+
+
+.column-70 {
+  width: 60%;
+  float:left;
+  background-color: white;
+  margin:0 2.5%
+  
+  
+   
+}
+
+.column-70 img {
+  width: 100%;
+
+}
+
+.row:before {
+  display: table;
+  content: "";
+}
+
+.row:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.side-header{
+  font-family: 'Merriweather';
+  text-align: center;
+  display: block;
+}
+h2{
+  text-align: center;
+}
+
+@media (max-width:700px){
+  .column-70{
+    width: 100%;
+  }
+  .column-30 {
+    width:100%;
+    margin-top:2%
+  }
+  p {
+    font-size: 120%
+  }
+}
+
+
+.tel-aviv-pic{
+  height: 1000px;
+  background-size: cover;
+  background: url(https://www.thepinnaclelist.com/wp-content/uploads/2013/02/tayelet-the-vibrant-mediterranean-seaside-beach-promenade-tel-aviv-israel-920x673-1840-the-pinnacle-list-tpl.jpg) no-repeat center fixed
+}
